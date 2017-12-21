@@ -5,8 +5,8 @@ def display_board
   middle = "|"
   lines = "-----------"
   
-  print(cell, middle, cell, middle, cell, "\n")
-  print(lines, "\n")
+  puts "#{cell}#{middle}#{cell}#{middle}#{cell}"
+  puts lines
   #board = [cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell]
   #puts board
 end
