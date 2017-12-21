@@ -3,9 +3,9 @@
 def display_board
   cell = "   "
   middle = "|"
-  lines = "-----------\n"
-  row = [cell, cell, "#{cell}\n"]
-  print [row.join(middle), row.join(middle), row.join(middle)].join(lines)
+  lines = "-----------"
+  
+  print(cell, middle, cell, "\n")
   #board = [cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell]
   #puts board
 end
