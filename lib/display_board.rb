@@ -7,6 +7,7 @@ def display_board()
   
   puts "#{cell}#{middle}#{cell}#{middle}#{cell}"
   puts lines
-  #board = [cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell]
-  #puts board
+  puts "#{cell}#{middle}#{cell}#{middle}#{cell}"
+  puts lines
+  puts "#{cell}#{middle}#{cell}#{middle}#{cell}"
 end
