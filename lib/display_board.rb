@@ -3,8 +3,8 @@
 def display_board
   cell = "   "
   middle = "|"
-  lines = "-----------"
-  row = [cell, cell, cell]
+  lines = "-----------\n"
+  row = [cell, cell, "#{cell}\n"]
   print [row.join(middle), row.join(middle), row.join(middle)].join(lines)
   #board = [cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell, lines, cell, middle, cell, middle, cell]
   #puts board
